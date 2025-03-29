@@ -30,7 +30,7 @@ const Contact = () => {
 
       <div className="mt-8 flex flex-col items-center">
         <p className="text-gray-400 mb-2">Or contact me directly:</p>
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 md:flex-nowrap flex-wrap gap-6 md:mt-0 mt-4 md:gap-0">
           <a href="https://www.linkedin.com/in/mayank-saxena-419388239/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 flex items-center">
             <FaLinkedin className="mr-2" /> LinkedIn
           </a>

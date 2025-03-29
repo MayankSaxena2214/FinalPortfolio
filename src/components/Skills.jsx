@@ -41,7 +41,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className={`flex flex-col items-center p-4 rounded-lg shadow-md transition-transform transform hover:scale-110 hover:bg-gray-800 ${skill.color}`}
+              className={`flex animate-bounce flex-col items-center p-4 rounded-lg shadow-md transition-transform transform hover:scale-110 hover:bg-gray-800 ${skill.color}`}
             >
               <div className="text-5xl mb-2">{skill.icon}</div>
               <p className="text-lg font-semibold">{skill.name}</p>

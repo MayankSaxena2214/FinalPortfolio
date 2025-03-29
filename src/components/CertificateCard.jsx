@@ -2,7 +2,7 @@ import React from 'react';
 
 const CertificateCard = ({ image, subject, provider, link }) => {
   return (
-    <div className="w-80 h-96 flex flex-col bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+    <div className="justify-between w-80  flex flex-col bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
       <img src={image} alt={subject} className="w-full h-40 object-cover" />
       <div className="flex flex-col items-center p-4 text-center">
         <div className="text-xl text-white font-semibold">{subject}</div>

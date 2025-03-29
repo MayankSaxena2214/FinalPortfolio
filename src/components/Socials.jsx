@@ -17,8 +17,8 @@ const socials = [
 
 const Socials = () => {
   return (
-    <div className="container mx-auto px-6 py-10 bg-blue-800">
-      <h2 className="text-2xl font-bold text-center text-white mb-6">Connect With Me</h2>
+    <div className="container mx-auto px-6 py-10 bg-blue-800 ">
+      <h2 className="text-2xl font-bold text-center text-white mb-10">Connect With Me</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {socials.map((social, index) => (
           <a
@@ -26,7 +26,7 @@ const Socials = () => {
             href={social.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-900 p-6 rounded-xl flex flex-col items-center justify-center space-y-2 transition-all transform hover:scale-105 hover:shadow-lg hover:bg-gray-800"
+            className="bg-gray-900 p-6 animate-bounce rounded-xl flex flex-col items-center justify-center space-y-2 transition-all transform hover:scale-105 hover:shadow-lg hover:bg-gray-800"
           >
             <div className={`text-4xl ${social.color}`}>{social.icon}</div>
             <span className="text-white text-sm font-semibold">{social.name}</span>

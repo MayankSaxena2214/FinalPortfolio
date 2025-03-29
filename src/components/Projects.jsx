@@ -95,7 +95,7 @@ const Projects = () => {
 
 const ProjectCard = ({ image, heading, info, deploy }) => {
   return (
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+    <div className="bg-gray-800 hover:translate-1.5 hover:transform-3d flex flex-col justify-between p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
       <img src={image} alt={heading} className="w-full h-48 object-cover rounded-md mb-4" />
       <h3 className="text-2xl font-semibold mb-2">{heading}</h3>
       <p className="text-gray-400 mb-4">{info}</p>
